@@ -147,6 +147,10 @@ nav ul li a:hover {
     font-weight: 400;
 }
 
+#portfolio .half-width a {
+    margin-right: 10px;
+}
+
 #portfolio .half-width h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -160,20 +164,35 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-#portfolio a {
+#portfolio a, a.second-button {
     text-decoration: none;
-    color: #fa0075;
-    border: 1px solid #fa0075;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 18px;
     text-transform: uppercase;
 }
 
+#portfolio a {
+    color: #fa0075;
+    border: 1px solid #fa0075;
+}
+
 #portfolio a:hover {
     background: #fa0075;
     color: #fff;
 }
+
+#portfolio a.second-button {
+    color: #fff;
+    background: #fa0075;
+}
+
+#portfolio a.second-button:hover {
+    color: #fa0075;
+    border: 1px solid #fa0075;
+    background: none;
+}
+
 
 img.img-right {
     float: right;
