@@ -1,51 +1,42 @@
-## Developer Portfolio Landing Page Template
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-### Introduction
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
 
-<img src="images/demo.gif?raw=true"/>
 
-### Installation
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
+[![Andrea Jasper Portfolio][product-screenshot]](https://github.com/AndreaJasper/edgy-portfolio)
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+This was a portfolio design provided by Skillcrush. I made minor alterations to the design and all the content is my own.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Built With
 
-### Markdown
+* HTML/CSS
+* VSCode
+* Photoshop
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<!-- CONTACT -->
+## Contact
 
-- Bulleted
-- List
+Website - http://andreajasper.com/
 
-1. Numbered
-2. List
+Project Link: [https://github.com/AndreaJasper/edgy-portfolio](https://github.com/AndreaJasper/edgy-portfolio)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Skillcrush](https://skillcrush.com/)
 
-### Roadmap
 
-See the [open issues](https://github.com/evanca/machine-learning_optimizing-app-offers-with-starbucks/issues) for a list of proposed features (and known issues).
-___
 
-### References
-
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: img/screenshot.png
