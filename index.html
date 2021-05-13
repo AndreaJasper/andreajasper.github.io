@@ -1,110 +1,25 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Andrea Jasper | Portfolio</title>
-	<!-- FONTAWESOME SCRIPT-->
-    <script src="https://kit.fontawesome.com/a783669188.js" crossorigin="anonymous"></script>
-	<!-- CSS FILES -->
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/normalize.css">
-	<!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Source+Code+Pro&display=swap" rel="stylesheet">
-    
-</head>
-<body>
-    <header>
-        <div class="full-width">
-            <div class="half-width">
-                <h1>Andrea Jasper | Web Developer</h1>
-            </div>
-            <div class="half-width">
-                <nav>
-                    <ul>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section id="hero">
-            <div class="full-width">
-                <h2>Let's <span>code</span><br>something cool</h2>
-            </div>
-        </section>
-        <section id="portfolio">
-            <div class="full-width">
-                <h2 class="headers">My portfolio</h2>
-                <!-- JUBILEE PROJECT -->
-                    <div class="half-width">
-                        <img src="img/jubilee-thumbnail.png" alt="image of jubille austen project">
-                    </div>
-                    <div class="half-width text-left">
-                        <h2>Jubilee Austen Project</h2>
-                        <h3>HTML 5 & CSS from Photoshop Design Comp</h3>
-                        <p>This is a single-page portfolio that focuses on raw HTML and CSS. Grids were hand-coded without the use of a framework. The focus for this piece was to refresh on pulling necessary information from a design comp to create a pixel perfect layout.</p>
-                        <a href="../projects/jubilee.html">Live View</a><a class="second-button" href="https://github.com/AndreaJasper/simple-portfolio-website">View Code</a>
-                    </div>
-                <!-- ROGUE PICKINGS PROJECT-->
-                    <div class="half-width text-right">
-                        <h2>Rogue Pickings Project</h2>
-                        <h3>HTML 5 & CSS Website</h3>
-                        <p>A practice piece working on grid layout, borders, and coding best practices to solidify good code structure.</p>
-                        <a href="../projects/rogue-pickings.html">Live View</a><a class="second-button" href="https://github.com/AndreaJasper/rogue-pickings-website">View Code</a>
-                    </div>
-                    <div class="half-width">
-                        <img class="img-right" src="img/rogue-pickings-thumbnail.png" alt="image of rogue pickings website">
-                    </div>
-                <!-- RECIPE COLLECTION PROJECT-->
-                    <div class="half-width">
-                        <img src="img/recipe-thumbnail.png" alt="image of a collection of recipes">
-                    </div>
-                    <div class="half-width text-left">
-                        <h2>Recipe Collection</h2>
-                        <h3>HTML 5 & CSS Exercise</h3>
-                        <p>A fun project to brush up on layouts, columns, styling. I used raw HTML and CSS instead of a framework to ensur ebest practices are being used whil creating grids.</p>
-                        <a href="../projects/recipe-collection.html">Live View</a><a class="second-button" href="https://github.com/AndreaJasper/recipe-card-collection">View Code</a>
-                    </div>
-            </div>
-        </section>
-        <section id="about">
-            <div class="full-width">
-                <h2 class="headers">About Me</h2>
-                <div class="half-width text-left">
-                    <h3>I'm passionate about the web.</h3>
-                    <p>I still remember the first time I coded in LOGO back in grade school. I didn’t know what it was or what I was doing, but it was fun. You could say that was the very beginning of my programming career. Fast-forward several years and I’m now a front-end developer expanding her horizons into full-stack. When I’m not coding, I’m riding horses or on the mats practicing jiu-jitsu.</p>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <div class="full-width">
-                <h2 class="headers">Let's Connect</h2>
-                <div class="third-width text-center">
-                    <h3>Hire Me</h3>
-                    <p>970-817-4788<br>
-                    andrea.nicole.jasper@gmail.com</p>
-                </div>
-                <div class="third-width text-center">
-                    <h3>Follow Me</h3>
-                    <ul>
-                        <li><a href="https://twitter.com/AndiJasper"><i class="fab fa-twitter-square fa-2x"></i></i></a></li>
-                        <li><a href="https://github.com/AndreaJasper"><i class="fab fa-github-square fa-2x"></i></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/andrea-jasper/"><i class="fab fa-linkedin fa-2x"></i></i></a></li>
-                    </ul>
-                </div>
-                <div class="third-width text-center">
-                   <h3>Meet Me</h3>
-                   <p>Northern Colorado<br>
-                    Let's go to meetups together!</p>
-                </div>
-            </div>
-        </section>
-    </main>
-	<footer>
-        <p class="text-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Andrea Jasper | <a href="/policy">Privacy Policy</a></p>
-    </footer>
-</body>
-</html>
+---
+layout: default
+---
+{% include hero.html %}
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			{% if site.posts.size > 0 %}
+				<h4 class="lates-title">Latest Posts</h4>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+	{% if site.posts.size > 0 %}
+		{% for post in paginator.posts %}
+			{% include article-content.html %}
+		{% endfor %}
+	{% endif %}
+	</div>
+</div>
+{% include pagination.html %}
