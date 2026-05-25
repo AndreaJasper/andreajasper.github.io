@@ -10,22 +10,129 @@
 
 /* append your custom style below */
 
-#sidebar {
-  background: peru;
+/* Dark mode custom styles */
+:root {
+  --heading-font-family: Playfair Display, serif;
+  --content-font-family: Inter, sans-serif;
+  --brand-blue: #86a3a3;
+  --brand-orange: #db876b;
 }
 
-/* Dark mode custom styles */
+search#search,
+#topbar-title,
+/* _sass/base/_base.scss */
+.content a.popup + em,
+div#tail-wrapper,
+/* _sass/base/_syntax.scss */
+div[class^="language-"] .code-header,
+/* _sass/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+div.content div#tags,
+/* _sass/components/_popups.scss */
+#notification > .toast-body,
+#toc-popup .header .label,
+#toc-popup #toc-popup-content,
+/* _sass/layout/_panel.scss */
+div.access > section,
+#panel-wrapper .panel-heading,
+/* _sass/layout/_sidebar.scss */
+#sidebar .site-title,
+#sidebar .site-subtitle,
+#sidebar ul,
+/* _sass/layout/_topbar.scss */
+#topbar #breadcrumb,
+/* _sass/pages/_archives.scss */
+div#archives,
+#archives .date.day,
+/* _sass/pages/_categories.scss */
+article div div.categories.card,
+/* _sass/pages/_category-tag.scss */
+div#page-category ul,
+div#page-tag ul,
+/* _sass/pages/_home.scss */
+#post-list .card .card-body .post-meta,
+#post-list .card .card-body .card-text.content,
+ul .pagination,
+/* _sass/pages/_post.scss */
+.share-mastodon,
+#toc-solo-trigger .label,
+header > div.post-meta,
+div.post-tail-wrapper div.license-wrapper,
+div.post-tail-wrapper div.post-tags,
+section#toc-wrapper,
+header .post-desc,
+/* _sass/pages/_search.scss */
+div#search-result-wrapper div.content,
+/* _sass/pages/_tags.scss */
+.tag span, {
+  font-family: var(--heading-font-family);
+}
+
+#breadcrumb,
+#breadcrumb span a {
+  color: var(--brand-orange) !important;
+}
+
+#breadcrumb:hover,
+#breadcrumb:hover span a {
+  color: var(--brand-blue) !important;
+}
 
 html {
+  /** Light mode custom styles */
+  @media (prefers-color-scheme: light) {
+    html:not([data-mode]),
+    html[data-mode='light'] {
+      --main-bg: #fafaf7;
+      --card-bg: #f6f8fa;
+
+      body {
+        background-color: var(--main-bg); /* Your desired color */
+      }
+
+      .post-preview {
+        background-color: var(--card-bg) !important;
+      }
+
+      .site-title span {
+        color: #5f6b57;
+        font-family: sava;
+      }
+    }
+    #sidebar #avatar {
+      img {
+        background-image: url('/assets/img/lt-logo.png');
+      }
+    }
+  }
+  /** Dark mode custom styles */
   @media (prefers-color-scheme: dark) {
     &:not([data-mode]),
     &[data-mode='dark'] {
+      --main-bg: #2c2f2a;
+      --card-bg: #1e201d;
+
       body {
-        background-color: #2c2f2a; /* Your desired color */
+        background-color: var(--main-bg); /* Your desired color */
       }
 
-      #sidebar {
-        background-color: #252724;
+      #sidebar,
+      .post-preview {
+        background-color: var(--card-bg);
+      }
+
+      .site-title span {
+        color: #5f6b57;
+        font-family: sava;
+      }
+    }
+    #sidebar #avatar {
+      img {
+        background-image: url('assets\img\dk-logo.png') !important;
       }
     }
   }
