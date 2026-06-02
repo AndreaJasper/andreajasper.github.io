@@ -22,5 +22,6 @@ To unlock all features, the following files must be present in your Jekyll site:
 This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
 
 ## Admin Panel
+[Jekyll Admin](https://github.com/jekyll/jekyll-admin)
 
 To generate posts and pages run `bundle exec jekyll serve` then navigate to the browser at `http://localhost:4000/admin`
