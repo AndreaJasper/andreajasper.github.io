@@ -230,9 +230,15 @@ jekyll-archives:
 # admin plugin details
 jekyll_admin:
   hidden_links:
-    - posts
+    # - posts
     - pages
     - staticfiles
     - datafiles
     - configuration
   homepage: "pages"
+  # Optional: Customize sidebar labels
+  collections:
+    posts:
+      sidebar_label: Blog Posts
+    tabs:
+      sidebar_label: Tabs
