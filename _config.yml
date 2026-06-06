@@ -229,9 +229,10 @@ jekyll-archives:
 
 # admin plugin details
 jekyll_admin:
+  show_drafts: true
   hidden_links:
     # - posts
-    - pages
+    # - pages
     - staticfiles
     - datafiles
     - configuration
