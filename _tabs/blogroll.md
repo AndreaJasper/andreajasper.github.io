@@ -1,6 +1,6 @@
 ---
 title: Blogroll
-icon: fa fa-pencil
+icon: fa fa-paint-roller
 order: 5
 ---
 <div id="page-category">
