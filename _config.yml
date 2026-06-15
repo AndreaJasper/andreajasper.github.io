@@ -225,3 +225,20 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# admin plugin details
+jekyll_admin:
+  show_drafts: true
+  hidden_links:
+    # - posts
+    # - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+  # Optional: Customize sidebar labels
+  collections:
+    posts:
+      sidebar_label: Blog Posts
+    tabs:
+      sidebar_label: Tabs
