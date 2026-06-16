@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The Ledger"
-icon: fa fa-pencil
+icon: fa fa-book
 order: 2
 ---
 

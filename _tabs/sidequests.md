@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Side Quests"
-icon: fas fa-scroll
-order: 4
+icon: fas fa-mug-hot
+order: 5
 publish: false
 ---
 

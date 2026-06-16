@@ -2,7 +2,7 @@
 title: When Your Dream Career Stops Feeling Like a Dream
 date: 2026-01-14 17:14:SS +/-TTTT
 categories: ["Course Correction"]
-tags: Career Change, Personal Growth, Career Transition, Lifelong Learning, Identity
+tags: [career change, personal growth, career transition, lifelong learning, identity]
 # description: Short summary of the post.
 # image:
 #   path: "/path/to/image"
