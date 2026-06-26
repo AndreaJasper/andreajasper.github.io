@@ -11,6 +11,7 @@ order: 6
   </div> -->
 </div>
 
+- [Shell Shark](https://shellsharks.com/)
 - [Frills](https://frills.dev/)
 - [ANHVN](https://anhvn.com/posts/2026/weeknotes-40/)
 - [Ava's Space](https://blog.avas.space/digital-remains/)
