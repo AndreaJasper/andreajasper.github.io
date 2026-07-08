@@ -15,3 +15,4 @@ order: 6
 - [Frills](https://frills.dev/)
 - [ANHVN](https://anhvn.com/posts/2026/weeknotes-40/)
 - [Ava's Space](https://blog.avas.space/digital-remains/)
+- [The Honey Pot](https://thehoneypot.neocities.org/)
