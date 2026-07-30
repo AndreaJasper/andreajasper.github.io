@@ -1,6 +1,6 @@
 ---
 title: Side Quests July 2026
-date: 2026-07-30 08:38:SS +/-TTTT
+date: 2026-07-30 08:44:SS +/-TTTT
 categories: ["Side Quests"]
 tags: [side quests, monthly review, media log, video games, books, movies, television]
 pin: true
