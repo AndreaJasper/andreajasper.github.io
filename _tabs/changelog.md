@@ -25,6 +25,6 @@ June 2026
 - Added [Blogroll](/blogroll) to site
 
 July 2026
-- Added **1** new posts to [The Ledger](/posts/iteration-005/)
+- Added **2** new posts to [The Ledger](/theledger)
 - Added second [Side Quests](/posts/side-quests-july/) post
 - Added **1** new post to [Field Notes](/posts/field-notes-july/)
