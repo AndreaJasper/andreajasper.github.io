@@ -26,4 +26,5 @@ June 2026
 
 July 2026
 - Added **1** new posts to [The Ledger](/posts/iteration-005/)
-- Added second [Side Quests](/) post
+- Added second [Side Quests](/posts/side-quests-july/) post
+- Added **1** new post to [Field Notes](/posts/field-notes-july/)
