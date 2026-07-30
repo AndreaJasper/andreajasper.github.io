@@ -23,3 +23,7 @@ June 2026
 - Added Excel notes to [Field Notes](/fieldnotes)
 - Added changelog to site
 - Added [Blogroll](/blogroll) to site
+
+July 2026
+- Added **1** new posts to [The Ledger](/posts/iteration-005/)
+- Added second [Side Quests](/) post
